@@ -92,7 +92,7 @@ if st.button("Get Crop Recommendation"):
     new_data["prediction"] = final_pred_new
 
     # Download results as CSV
-    st.download_button(label="Download Crop Prediction Results", data=new_data.to_csv(), file_name="crop_predictions.csv", mime="text/csv")
+    st.download_button(label="Download Crop Recommendation Results", data=new_data.to_csv(), file_name="Crop Recommendation Results.csv", mime="text/csv")
 
 # Fertilizer Recommendation
 st.header("Fertilizer Recommendation System")
@@ -193,4 +193,4 @@ if st.button("Get Fertilizer Recommendation"):
     fertilizer_new_data["prediction"] = fertilizer_final_pred_new  
 
     # Download results as CSV
-    st.download_button(label="Download Fertilizer Prediction Results", data=fertilizer_new_data.to_csv(), file_name="fertilizer_predictions.csv", mime="text/csv")
+    st.download_button(label="Download Fertilizer Recommendation Results", data=fertilizer_new_data.to_csv(), file_name="Fertilizer Recommendation Results.csv", mime="text/csv")
