@@ -48,8 +48,8 @@ if st.button("Get Crop Recommendation"):
     # Get final prediction using the meta-model
     final_pred_new = meta_model_loaded.predict(stacked_predictions_new)
 
-    # Output the final prediction
-    st.write(f"Prediction for the entered data: {final_pred_new[0]}")
+    # Output the final recommendation
+    st.subheader(f"Crop Recommendation for the entered data: {final_pred_new[0]}")
 
     # Show model performance metrics
     st.subheader("Model Performance Metrics:")
@@ -154,7 +154,7 @@ if st.button("Get Fertilizer Recommendation"):
     fertilizer_final_pred_new = fertilizer_meta_model.predict(fertilizer_stacked_predictions_new)
 
     # Output the final recommendation
-    st.write(f"Fertilizer Recommendation for the entered data: {fertilizer_final_pred_new[0]}")
+    st.subheader(f"Fertilizer Recommendation for the entered data: {fertilizer_final_pred_new[0]}")
 
     # Show model performance metrics
     st.subheader("Model Performance Metrics:")
