@@ -6,6 +6,5 @@ pandas
 matplotlib
 catboost
 lightgbm
-random
 plotly
 seaborn
