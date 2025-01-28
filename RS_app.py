@@ -52,7 +52,7 @@ if st.button("Get Crop Recommendation"):
     st.write(f"Prediction for the entered data: {final_pred_new[0]}")
 
     # Show model performance metrics
-    st.subheader("Model Performance Metrics")
+    st.subheader("Model Performance Metrics:")
     accuracy = meta_model_loaded.score(stacked_predictions_new, final_pred_new)
     st.write(f"Model Accuracy: {accuracy * 100:.2f}%")
     
@@ -156,7 +156,7 @@ if st.button("Get Fertilizer Recommendation"):
     st.write(f"Fertilizer Recommendation for the entered data: {fertilizer_final_pred_new[0]}")
 
     # Show model performance metrics
-    st.subheader("Model Performance Metrics")
+    st.subheader("Model Performance Metrics:")
     accuracy = fertilizer_meta_model.score(fertilizer_stacked_predictions_new, fertilizer_final_pred_new)
     st.write(f"Model Accuracy: {accuracy * 100:.2f}%")
 
