@@ -97,6 +97,7 @@ if st.button("Get Crop Recommendation"):
 
 # Fertilizer Recommendation
 st.header("Fertilizer Recommendation System")
+st.write("Enter the details:")
 
 # Load the saved Blend Ensemble model for fertilizer recommendation
 fertilizer_ensemble_model = joblib.load("Models/Fertilizer_Recommendation_model.pkl")
