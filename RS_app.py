@@ -62,7 +62,7 @@ if st.button("Get Crop Recommendation"):
     crop_feature_importance = models_loaded['RandomForestClassifier'].feature_importances_
 
     # Create a bar chart
-    st.subheader("Feature Importance")
+    st.subheader("Feature Importance:")
     fig, ax = plt.subplots(figsize=(8, 6))
     ax.barh(feature_names, crop_feature_importance)
     ax.set_xlabel('Importance')
@@ -71,7 +71,7 @@ if st.button("Get Crop Recommendation"):
     st.pyplot(fig)
 
     # Create a DataFrame from the input data
-    st.subheader("Feature Distributions")
+    st.subheader("Feature Distributions:")
     new_data = pd.DataFrame([[N, P, K, temperature, humidity, ph, rainfall]], columns=feature_names)
     fig, ax = plt.subplots(figsize=(8, 6))
     new_data.plot(kind='bar', ax=ax)
@@ -79,6 +79,7 @@ if st.button("Get Crop Recommendation"):
     st.pyplot(fig)
 
     # Plot probabilities
+    st.subheader("Prediction Probabilities:")
     predicted_class = final_pred_new[0]
     class_probabilities = stacked_predictions_new[0]
     fig, ax = plt.subplots(figsize=(8, 6))
@@ -163,7 +164,7 @@ if st.button("Get Fertilizer Recommendation"):
     fert_feature_importance = fertilizer_base_models['RandomForestClassifier'].feature_importances_
 
     # Create a bar chart
-    st.subheader("Feature Importance")
+    st.subheader("Feature Importance:")
     fig, ax = plt.subplots(figsize=(8, 6))
     ax.barh(fertilizer_feature_names, fert_feature_importance)
     ax.set_xlabel('Importance')
@@ -172,7 +173,7 @@ if st.button("Get Fertilizer Recommendation"):
     st.pyplot(fig)
 
     # Create a DataFrame from the input data
-    st.subheader("Feature Distributions")
+    st.subheader("Feature Distributions:")
     fertilizer_new_data = pd.DataFrame([[temperature_fertilizer, humidity_fertilizer, moisture, soil_type, crop_type, nitrogen, potassium, phosphorous]], columns=fertilizer_feature_names)
     fig, ax = plt.subplots(figsize=(8, 6))
     fertilizer_new_data.plot(kind='bar', ax=ax)
@@ -180,6 +181,7 @@ if st.button("Get Fertilizer Recommendation"):
     st.pyplot(fig)
 
     # Plot probabilities
+    st.subheader("Prediction Probabilities:")
     fert_predicted_class = fertilizer_final_pred_new[0]
     fert_class_probabilities = fertilizer_stacked_predictions_new[0]
     fig, ax = plt.subplots(figsize=(8, 6))
