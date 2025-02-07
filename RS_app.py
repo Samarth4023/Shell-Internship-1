@@ -96,7 +96,7 @@ if st.button("Get Crop Recommendation"):
     st.download_button(label="Download Crop Recommendation Results", data=new_data.to_csv(), file_name="Crop Recommendation Results.csv", mime="text/csv")
 
 # Fertilizer Recommendation
-st.header("Fertilizer Recommendation System")
+st.header("Fertilizer Recommendation")
 st.write("Enter the details:")
 
 # Load the saved Blend Ensemble model for fertilizer recommendation
