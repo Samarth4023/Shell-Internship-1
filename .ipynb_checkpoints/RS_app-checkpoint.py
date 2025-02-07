@@ -48,11 +48,11 @@ if st.button("Get Crop Recommendation"):
     # Get final prediction using the meta-model
     final_pred_new = meta_model_loaded.predict(stacked_predictions_new)
 
-    # Output the final prediction
-    st.write(f"Prediction for the entered data: {final_pred_new[0]}")
+    # Output the final recommendation
+    st.subheader(f"Crop Recommendation for the entered data: {final_pred_new[0]}")
 
     # Show model performance metrics
-    st.subheader("Model Performance Metrics")
+    st.subheader("Model Performance Metrics:")
     accuracy = meta_model_loaded.score(stacked_predictions_new, final_pred_new)
     st.write(f"Model Accuracy: {accuracy * 100:.2f}%")
     
@@ -62,7 +62,7 @@ if st.button("Get Crop Recommendation"):
     crop_feature_importance = models_loaded['RandomForestClassifier'].feature_importances_
 
     # Create a bar chart
-    st.subheader("Feature Importance")
+    st.subheader("Feature Importance:")
     fig, ax = plt.subplots(figsize=(8, 6))
     ax.barh(feature_names, crop_feature_importance)
     ax.set_xlabel('Importance')
@@ -71,7 +71,7 @@ if st.button("Get Crop Recommendation"):
     st.pyplot(fig)
 
     # Create a DataFrame from the input data
-    st.subheader("Feature Distributions")
+    st.subheader("Feature Distributions:")
     new_data = pd.DataFrame([[N, P, K, temperature, humidity, ph, rainfall]], columns=feature_names)
     fig, ax = plt.subplots(figsize=(8, 6))
     new_data.plot(kind='bar', ax=ax)
@@ -79,6 +79,7 @@ if st.button("Get Crop Recommendation"):
     st.pyplot(fig)
 
     # Plot probabilities
+    st.subheader("Prediction Probabilities:")
     predicted_class = final_pred_new[0]
     class_probabilities = stacked_predictions_new[0]
     fig, ax = plt.subplots(figsize=(8, 6))
@@ -92,10 +93,11 @@ if st.button("Get Crop Recommendation"):
     new_data["prediction"] = final_pred_new
 
     # Download results as CSV
-    st.download_button(label="Download Crop Prediction Results", data=new_data.to_csv(), file_name="crop_predictions.csv", mime="text/csv")
+    st.download_button(label="Download Crop Recommendation Results", data=new_data.to_csv(), file_name="Crop Recommendation Results.csv", mime="text/csv")
 
 # Fertilizer Recommendation
 st.header("Fertilizer Recommendation System")
+st.write("Enter the details:")
 
 # Load the saved Blend Ensemble model for fertilizer recommendation
 fertilizer_ensemble_model = joblib.load("Models/Fertilizer_Recommendation_model.pkl")
@@ -152,10 +154,10 @@ if st.button("Get Fertilizer Recommendation"):
     fertilizer_final_pred_new = fertilizer_meta_model.predict(fertilizer_stacked_predictions_new)
 
     # Output the final recommendation
-    st.write(f"Fertilizer Recommendation for the entered data: {fertilizer_final_pred_new[0]}")
+    st.subheader(f"Fertilizer Recommendation for the entered data: {fertilizer_final_pred_new[0]}")
 
     # Show model performance metrics
-    st.subheader("Model Performance Metrics")
+    st.subheader("Model Performance Metrics:")
     accuracy = fertilizer_meta_model.score(fertilizer_stacked_predictions_new, fertilizer_final_pred_new)
     st.write(f"Model Accuracy: {accuracy * 100:.2f}%")
 
@@ -163,7 +165,7 @@ if st.button("Get Fertilizer Recommendation"):
     fert_feature_importance = fertilizer_base_models['RandomForestClassifier'].feature_importances_
 
     # Create a bar chart
-    st.subheader("Feature Importance")
+    st.subheader("Feature Importance:")
     fig, ax = plt.subplots(figsize=(8, 6))
     ax.barh(fertilizer_feature_names, fert_feature_importance)
     ax.set_xlabel('Importance')
@@ -172,7 +174,7 @@ if st.button("Get Fertilizer Recommendation"):
     st.pyplot(fig)
 
     # Create a DataFrame from the input data
-    st.subheader("Feature Distributions")
+    st.subheader("Feature Distributions:")
     fertilizer_new_data = pd.DataFrame([[temperature_fertilizer, humidity_fertilizer, moisture, soil_type, crop_type, nitrogen, potassium, phosphorous]], columns=fertilizer_feature_names)
     fig, ax = plt.subplots(figsize=(8, 6))
     fertilizer_new_data.plot(kind='bar', ax=ax)
@@ -180,6 +182,7 @@ if st.button("Get Fertilizer Recommendation"):
     st.pyplot(fig)
 
     # Plot probabilities
+    st.subheader("Prediction Probabilities:")
     fert_predicted_class = fertilizer_final_pred_new[0]
     fert_class_probabilities = fertilizer_stacked_predictions_new[0]
     fig, ax = plt.subplots(figsize=(8, 6))
@@ -193,4 +196,4 @@ if st.button("Get Fertilizer Recommendation"):
     fertilizer_new_data["prediction"] = fertilizer_final_pred_new  
 
     # Download results as CSV
-    st.download_button(label="Download Fertilizer Prediction Results", data=fertilizer_new_data.to_csv(), file_name="fertilizer_predictions.csv", mime="text/csv")
+    st.download_button(label="Download Fertilizer Recommendation Results", data=fertilizer_new_data.to_csv(), file_name="Fertilizer Recommendation Results.csv", mime="text/csv")
