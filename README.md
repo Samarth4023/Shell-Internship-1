@@ -97,4 +97,4 @@ This project is **open-source** and free to use. Feel free to contribute!
 ## **📧 Contact**  
 📌 **Author:** Samarth Pujari  
 📌 **GitHub:** [Samarth4023](https://github.com/Samarth4023)  
-📌 **LinkedIn:** [Samarth Pujari](www.linkedin.com/in/samarth-pujari-328a1326a)  
+📌 **LinkedIn:** [Samarth Pujari](https://www.linkedin.com/in/samarth-pujari-328a1326a)  
