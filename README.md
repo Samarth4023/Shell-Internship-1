@@ -1,7 +1,5 @@
 # **🌱 Crop & Fertilizer Recommendation System**  
 
-![Project Banner](https://your-banner-image-url.com) *(Optional: Add a banner image related to agriculture & AI)*  
-
 ## **📌 Introduction**  
 This project is a **Machine Learning-based Crop & Fertilizer Recommendation System**, developed as part of my **AICTE-Shell Internship**. The system provides **personalized crop and fertilizer recommendations** based on soil composition, weather conditions, and crop requirements.  
 
@@ -103,8 +101,4 @@ This project is **open-source** and free to use. Feel free to contribute!
 ## **📧 Contact**  
 📌 **Author:** Samarth Pujari  
 📌 **GitHub:** [Samarth4023](https://github.com/Samarth4023)  
-📌 **LinkedIn:** [Your LinkedIn Profile]  
-
----
-
-This **README.md** is now structured, detailed, and **ready for GitHub**! Let me know if you'd like any refinements! 🚀😊
+📌 **LinkedIn:** [Samarth Pujari](www.linkedin.com/in/samarth-pujari-328a1326a)  
