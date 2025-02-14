@@ -3,7 +3,7 @@
 ## **📌 Introduction**  
 This project is a **AI Powered Crop & Fertilizer Recommendation System**, developed as part of my **AICTE-Shell Internship**. The system provides **personalized crop and fertilizer recommendations** based on soil composition, weather conditions, and crop requirements.  
 
-🔗 **Deployed Application:** [Crop & Fertilizer Recommendation System](https://samarth4023-aicte-shell-internship-rs-app-nhp1xt.streamlit.app/)  
+🔗 **Deployed Application:** [Crop & Fertilizer Recommendation System](https://recommendation16system.streamlit.app/)  
 
 ## **🎯 Project Goals**  
 ✅ Integrate **AI and Green Skills** into agriculture.  
@@ -97,4 +97,4 @@ This project is **open-source** and free to use. Feel free to contribute!
 ## **📧 Contact**  
 📌 **Author:** Samarth Pujari  
 📌 **GitHub:** [Samarth4023](https://github.com/Samarth4023)  
-📌 **LinkedIn:** [Samarth Pujari](www.linkedin.com/in/samarth-pujari-328a1326a)  
+📌 **LinkedIn:** [Samarth Pujari](https://www.linkedin.com/in/samarth-pujari-328a1326a)  
