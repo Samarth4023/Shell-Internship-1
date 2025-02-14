@@ -63,9 +63,13 @@ The project uses two datasets:
 
 ## **📷 Screenshots**  
 
-| **Streamlit App - Crop Recommendation** | **Streamlit App - Fertilizer Recommendation** |
-|-----------------------------------------|-----------------------------------------------|
-| ![Screenshot_20250207_165105_Chrome](https://github.com/user-attachments/assets/4eeaf812-9861-42cc-8da0-99ae5b6ce7ef) ![Screenshot_20250207_165127_Chrome](https://github.com/user-attachments/assets/f56d75d4-f525-49b1-a96f-b7069d636e3e) ![Screenshot_20250207_165152_Chrome](https://github.com/user-attachments/assets/1c6fd4d8-76b6-4296-9de8-fa58c1d595ef) ![Screenshot_20250207_165206_Chrome](https://github.com/user-attachments/assets/e687b035-bebc-48ec-be2f-54bb6f653b6a) | ![Screenshot_20250207_170147_Chrome](https://github.com/user-attachments/assets/9f82901f-deeb-4a58-aa01-add4115f0860) ![Screenshot_20250207_170221_Chrome](https://github.com/user-attachments/assets/d5cbca1f-d954-4145-86e3-6c596a58a5a6) ![Screenshot_20250207_170235_Chrome](https://github.com/user-attachments/assets/34f968ad-3d02-411c-94e2-a0dd28de92a6) ![Screenshot_20250207_170245_Chrome](https://github.com/user-attachments/assets/cfc8bfc5-5890-46da-a636-257ac68d411b) |
+| **Streamlit App - Crop Recommendation** |
+|-----------------------------------------|
+|![Screenshot_20250211_223522_Chrome-imageonline co-merged](https://github.com/user-attachments/assets/7c3b2339-37c4-49ba-8ee4-a74e5d7575ac)|
+
+| **Streamlit App - Fertilizer Recommendation** |
+|-----------------------------------------------|
+|![Screenshot_20250211_223923_Chrome-imageonline co-merged](https://github.com/user-attachments/assets/63446c22-de9c-4b9c-a3f3-e576bc7294e5)|
 
 ## **🎯 Future Improvements**  
 🔹 Expand the dataset to include **more crop varieties & soil types**.  
