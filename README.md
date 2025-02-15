@@ -40,8 +40,7 @@ The project uses two datasets:
 🔹 Evaluated different ensemble techniques:  
    - **Voting Classifier, Stacking, Averaging Probabilities, Weighted Ensemble, Blend Ensemble (Custom Blending).**
 
-🔹 **Blend Ensemble provided the best results**, so it was selected.
-
+🔹 **Blend Ensemble provided the best results**, so it was selected.  
 🔹 **Cross-validation** was performed to validate model performance.  
 
 ### **Step 4: Deployment & Integration**  
