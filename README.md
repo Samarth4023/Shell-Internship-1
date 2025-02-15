@@ -32,13 +32,16 @@ The project uses two datasets:
 
 ### **Step 2: Model Selection & Training**  
 🔹 Tested multiple **ML algorithms**, including:  
-   - Logistic Regression, GaussianNB, SVC, KNN, DecisionTree, ExtraTree, RandomForest, Bagging, Gradient Boosting, AdaBoost, CatBoost, and LGBM.  
+   - Logistic Regression, GaussianNB, SVC, KNN, DecisionTree, ExtraTree, RandomForest, Bagging, Gradient Boosting, AdaBoost, CatBoost, and LGBM.
+
 🔹 Compared **model performance** based on accuracy & validation metrics.  
 
 ### **Step 3: Ensemble Learning for Optimization**  
 🔹 Evaluated different ensemble techniques:  
-   - **Voting Classifier, Stacking, Averaging Probabilities, Weighted Ensemble, Blend Ensemble (Custom Blending).**  
-🔹 **Blend Ensemble provided the best results**, so it was selected.  
+   - **Voting Classifier, Stacking, Averaging Probabilities, Weighted Ensemble, Blend Ensemble (Custom Blending).**
+
+🔹 **Blend Ensemble provided the best results**, so it was selected.
+
 🔹 **Cross-validation** was performed to validate model performance.  
 
 ### **Step 4: Deployment & Integration**  
