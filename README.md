@@ -54,12 +54,12 @@ The project uses two datasets:
 
 ## **🚀 Technologies Used**  
 | Category            | Tools & Libraries |
-|---------------------|------------------|
+|---------------------|-------------------|
 | **Development**    | Python, Jupyter Notebook, Anaconda |
-| **ML Frameworks**  | Scikit-Learn, CatBoost, LGBM, XGBoost |
+| **ML Frameworks**  | Scikit-Learn, CatBoost, LGBM |
 | **Data Processing**| Pandas, NumPy |
-| **Visualization**  | Matplotlib, Seaborn |
-| **Deployment**     | Streamlit, Streamlit Cloud |
+| **Visualization**  | Matplotlib, Seaborn, Plotly |
+| **Deployment**     | HuggingFace, Streamlit, Streamlit Cloud |
 
 ## **📷 Screenshots**  
 
