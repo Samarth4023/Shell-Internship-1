@@ -3,7 +3,7 @@
 ## **📌 Introduction**  
 This project is a **AI Powered Crop & Fertilizer Recommendation System**, developed as part of my **AICTE-Shell Internship**. The system provides **personalized crop and fertilizer recommendations** based on soil composition, weather conditions, and crop requirements.  
 
-🔗 **Deployed Application:** [Crop & Fertilizer Recommendation System](https://recommendation16system.streamlit.app/)  
+🔗 **Deployed Application:** [Crop & Fertilizer Recommendation System](https://crop-fertilizer-recommendation.streamlit.app/)  
 
 ## **🎯 Project Goals**  
 ✅ Integrate **AI and Green Skills** into agriculture.  
@@ -83,8 +83,8 @@ The project uses two datasets:
 
 ### **🔹 Clone the Repository**  
 ```bash
-git clone https://github.com/Samarth4023/Shell-Internship.git
-cd Shell-Internship
+git clone https://github.com/Samarth4023/Shell-Internship-1.git
+cd Shell-Internship-1
 ```
 
 ### **🔹 Install Required Dependencies**  
