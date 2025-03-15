@@ -1,4 +1,3 @@
-
 ---
 license: apache-2.0
 title: 🌱 Crop & Fertilizer Recommendation System
@@ -10,7 +9,7 @@ pinned: false
 thumbnail: >-
   https://cdn-uploads.huggingface.co/production/uploads/6686260107019f3fe482ce08/1bMo8NSG3us4-ggFtRyM5.jpeg
 short_description: The system provides real-time recommendations for crp & fert
-sdk_version: 1.42.0
+sdk_version: 1.43.2
 ---
 # **🌱 Crop & Fertilizer Recommendation System**  
 
@@ -117,4 +116,4 @@ This project is **open-source** and free to use. Feel free to contribute!
 ## **📧 Contact**  
 📌 **Author:** Samarth Pujari  
 📌 **GitHub:** [Samarth4023](https://github.com/Samarth4023)  
-📌 **LinkedIn:** [Samarth Pujari](https://www.linkedin.com/in/samarth-pujari-328a1326a)  
+📌 **LinkedIn:** [Samarth Pujari](https://www.linkedin.com/in/samarth-pujari-328a1326a)
