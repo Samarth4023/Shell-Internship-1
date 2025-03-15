@@ -83,8 +83,8 @@ The project uses two datasets:
 
 ### **🔹 Clone the Repository**  
 ```bash
-git clone https://github.com/Samarth4023/Shell-Internship.git
-cd Shell-Internship
+git clone https://github.com/Samarth4023/Shell-Internship-1.git
+cd Shell-Internship-1
 ```
 
 ### **🔹 Install Required Dependencies**  
