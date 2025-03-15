@@ -1,0 +1,10 @@
+streamlit
+joblib
+scikit-learn==1.3.2
+numpy
+pandas
+matplotlib
+catboost
+lightgbm
+plotly
+seaborn
